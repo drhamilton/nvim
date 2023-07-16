@@ -1,3 +1,2 @@
 require("extra")
-print('hello')
 
