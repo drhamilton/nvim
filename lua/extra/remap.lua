@@ -39,3 +39,10 @@ vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.config/nvim/lua/extra/packer.lua<C
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+vim.keymap.set("n", "<leader>ww", "<cmd>write<cr>")
+vim.keymap.set("i", "<leader>ww", "<cmd>write<cr><Esc>")
+
+vim.keymap.set("n", "<leader>rr", "<cmd>!cargo run<cr>")
+
+
