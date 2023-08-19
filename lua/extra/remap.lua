@@ -41,7 +41,7 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 vim.keymap.set("n", "<leader>ww", "<cmd>write<cr>")
-vim.keymap.set("i", "<leader>ww", "<cmd>write<cr><Esc>")
+vim.keymap.set("i", "<C-s>", "<cmd>write<cr><Esc>")
 
 vim.keymap.set("n", "<leader>rr", "<cmd>!cargo run<cr>")
 
